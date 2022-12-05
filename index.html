@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #upper_box  {
+                min-height: 150px;
+                height:290px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+
+                <div class="div_as">
+                
+                </div>
+
+                <div class="div_as">
+                    <div class="div_a">
+                        <a href="adv_search.html" class="a_header">Advanced</a>
+                    </div>
+
+                    <div class="div_a">
+                        <a href="img_search.html" class="a_header">Image</a>    
+                    </div>
+                </div>  
+            </div>
+
+            <div id="upper_box">
+                    <a href="index.html">
+                        <img src="google.png" alt="google logo" class="img">
+                    </a>
+                
+            </div>
+
+            <div class="search_box">
+                <form action="https://www.google.com/search" method="GET"  role="search" style="height:140px;">
+                    
+                    <div id="input_box">
+                        <input type="text" name="q" id="text_box">
+                    </div>
+                   
+                    <div class="button_box">
+                        <div class="button">
+                            <input type="submit" value="Google Search" class="input_button">
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="I'm feeling lucky" class="input_button">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <div id="lower_box" style="flex-grow: 1; box-sizing:border-box;height:364px;">
+
+            </div>
+
+            <div class="footer">
+
+            </div>
+        </div>
+    </body>
+</html>
